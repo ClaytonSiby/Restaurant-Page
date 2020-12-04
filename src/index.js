@@ -4,3 +4,4 @@ import Contact from './modules/contact';
 import Menu from './modules/menu';
 
 NavBar.navigation();
+Menu.menuListing();
