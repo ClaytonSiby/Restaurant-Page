@@ -1,11 +1,10 @@
 const Contact = (() => {
-
   const contactPage = () => {
-    let content = document.getElementById('content');
-    let contactForm = document.createElement('form');
-    let name = document.createElement('input');
-    let email = document.createElement('input');
-    let text = document.createElement('input');
+    const content = document.getElementById('content');
+    const contactForm = document.createElement('form');
+    const name = document.createElement('input');
+    const email = document.createElement('input');
+    const text = document.createElement('input');
 
     name.setAttribute('type', 'text');
     email.setAttribute('type', 'email');

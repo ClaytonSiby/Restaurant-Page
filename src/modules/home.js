@@ -1,26 +1,25 @@
 const Home = (() => {
-
   const displayHomepage = () => {
     // query elements from the DOM
-    let content = document.getElementById('content');
+    const content = document.getElementById('content');
 
     // create new DOM elements
-    let heroSection = document.createElement('section');
-    let heroHeader = document.createElement('header');
-    let headerTitle = document.createElement('h1');
-    let heroSectionDescription = document.createElement('div');
-    let descriptionText = document.createElement('h4');
-    let seeMenuBtn = document.createElement('button');
+    const heroSection = document.createElement('section');
+    const heroHeader = document.createElement('header');
+    const headerTitle = document.createElement('h1');
+    const heroSectionDescription = document.createElement('div');
+    const descriptionText = document.createElement('h4');
+    const seeMenuBtn = document.createElement('button');
 
     // add class attributes
-    heroSection.classList = "hero-section";
-    heroHeader.classList = "hero-header";
-    heroSectionDescription.classList = "hero-description";
-    seeMenuBtn.classList = "btn btn-success";
+    heroSection.classList = 'hero-section';
+    heroHeader.classList = 'hero-header';
+    heroSectionDescription.classList = 'hero-description';
+    seeMenuBtn.classList = 'btn btn-success';
 
     // assign textContent to elements
     headerTitle.textContent = 'SibyRestaurant';
-    descriptionText.textContent = 'Get a true gastronomic experience!'
+    descriptionText.textContent = 'Get a true gastronomic experience!';
     seeMenuBtn.textContent = 'View Menu';
 
     // append children to parent elements

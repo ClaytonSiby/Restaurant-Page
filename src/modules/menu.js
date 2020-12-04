@@ -1,5 +1,4 @@
 const Menu = (() => {
-
   const menuListing = () => {
     // create DOM elements
     const content = document.getElementById('content');
@@ -57,81 +56,81 @@ const Menu = (() => {
     const buttonForItem6 = document.createElement('button');
 
     // assigning class attributes to UI elements
-    main.classList = "menu-wrapper";
-    mainHeader.classList = "menu-header";
-    mainBody.classList = "menu-section";
-    h1.classList = "header-menu-title";
+    main.classList = 'menu-wrapper';
+    mainHeader.classList = 'menu-header';
+    mainBody.classList = 'menu-section';
+    h1.classList = 'header-menu-title';
 
-    item1.classList = "menu-item";
-    menuItem1Top.classList = "menu-item-top";
-    menuItem1Bottom.classList = "menu-item-bottom";
-    titleForItem1.classList = "menu-item-title";
-    imageForItem1.classList = "menu-item-image item-1-image";
-    priceForItem1.classList = "menu-item-price";
-    buttonForItem1.classList = "menu-item-button btn btn-success";
+    item1.classList = 'menu-item';
+    menuItem1Top.classList = 'menu-item-top';
+    menuItem1Bottom.classList = 'menu-item-bottom';
+    titleForItem1.classList = 'menu-item-title';
+    imageForItem1.classList = 'menu-item-image item-1-image';
+    priceForItem1.classList = 'menu-item-price';
+    buttonForItem1.classList = 'menu-item-button btn btn-success';
 
-    item2.classList = "menu-item";
-    menuItem2Top.classList = "menu-item-top";
-    menuItem2Bottom.classList = "menu-item-bottom";
-    titleForItem2.classList = "menu-item-title";
-    imageForItem2.classList = "menu-item-image item-2-image";
-    priceForItem2.classList = "menu-item-price";
-    buttonForItem2.classList = "menu-item-button btn btn-success";
+    item2.classList = 'menu-item';
+    menuItem2Top.classList = 'menu-item-top';
+    menuItem2Bottom.classList = 'menu-item-bottom';
+    titleForItem2.classList = 'menu-item-title';
+    imageForItem2.classList = 'menu-item-image item-2-image';
+    priceForItem2.classList = 'menu-item-price';
+    buttonForItem2.classList = 'menu-item-button btn btn-success';
 
-    item3.classList = "menu-item";
-    menuItem3Top.classList = "menu-item-top";
-    menuItem3Bottom.classList = "menu-item-bottom";
-    titleForItem3.classList = "menu-item-title";
-    imageForItem3.classList = "menu-item-image item-3-image";
-    priceForItem3.classList = "menu-item-price";
-    buttonForItem3.classList = "menu-item-button btn btn-success";
+    item3.classList = 'menu-item';
+    menuItem3Top.classList = 'menu-item-top';
+    menuItem3Bottom.classList = 'menu-item-bottom';
+    titleForItem3.classList = 'menu-item-title';
+    imageForItem3.classList = 'menu-item-image item-3-image';
+    priceForItem3.classList = 'menu-item-price';
+    buttonForItem3.classList = 'menu-item-button btn btn-success';
 
-    item4.classList = "menu-item";
-    menuItem4Top.classList = "menu-item-top";
-    menuItem4Bottom.classList = "menu-item-bottom";
-    titleForItem4.classList = "menu-item-title";
-    imageForItem4.classList = "menu-item-image item-4-image";
-    priceForItem4.classList = "menu-item-price";
-    buttonForItem4.classList = "menu-item-button btn btn-success";
+    item4.classList = 'menu-item';
+    menuItem4Top.classList = 'menu-item-top';
+    menuItem4Bottom.classList = 'menu-item-bottom';
+    titleForItem4.classList = 'menu-item-title';
+    imageForItem4.classList = 'menu-item-image item-4-image';
+    priceForItem4.classList = 'menu-item-price';
+    buttonForItem4.classList = 'menu-item-button btn btn-success';
 
-    item5.classList = "menu-item";
-    menuItem5Top.classList = "menu-item-top";
-    menuItem5Bottom.classList = "menu-item-bottom";
-    titleForItem5.classList = "menu-item-title";
-    imageForItem5.classList = "menu-item-image item-5-image";
-    priceForItem5.classList = "menu-item-price";
-    buttonForItem5.classList = "menu-item-button btn btn-success";
+    item5.classList = 'menu-item';
+    menuItem5Top.classList = 'menu-item-top';
+    menuItem5Bottom.classList = 'menu-item-bottom';
+    titleForItem5.classList = 'menu-item-title';
+    imageForItem5.classList = 'menu-item-image item-5-image';
+    priceForItem5.classList = 'menu-item-price';
+    buttonForItem5.classList = 'menu-item-button btn btn-success';
 
-    item6.classList = "menu-item";
-    menuItem6Top.classList = "menu-item-top";
-    menuItem6Bottom.classList = "menu-item-bottom";
-    titleForItem6.classList = "menu-item-title";
-    imageForItem6.classList = "menu-item-image item-6-image";
-    priceForItem6.classList = "menu-item-price";
-    buttonForItem6.classList = "menu-item-button btn btn-success";
+    item6.classList = 'menu-item';
+    menuItem6Top.classList = 'menu-item-top';
+    menuItem6Bottom.classList = 'menu-item-bottom';
+    titleForItem6.classList = 'menu-item-title';
+    imageForItem6.classList = 'menu-item-image item-6-image';
+    priceForItem6.classList = 'menu-item-price';
+    buttonForItem6.classList = 'menu-item-button btn btn-success';
 
     // assigning textContent for the title of each menu-item
-    titleForItem1.textContent = "Omelette with morcilla";
-    titleForItem2.textContent = "Shrimp brochette";
-    titleForItem3.textContent = "Grilled Cheese with tomato";
-    titleForItem4.textContent = "Tapas of Cheese and Peppers";
-    titleForItem5.textContent = "Random Mixed Tapas";
-    titleForItem6.textContent = "Tankard of smoked scratchings";
-    h1.textContent = "Our Restaurant Menu";
+    titleForItem1.textContent = 'Omelette with morcilla';
+    titleForItem2.textContent = 'Shrimp brochette';
+    titleForItem3.textContent = 'Grilled Cheese with tomato';
+    titleForItem4.textContent = 'Tapas of Cheese and Peppers';
+    titleForItem5.textContent = 'Random Mixed Tapas';
+    titleForItem6.textContent = 'Tankard of smoked scratchings';
+    h1.textContent = 'Our Restaurant Menu';
 
-    priceForItem1.textContent = "$ 3,50";
-    priceForItem2.textContent = "$ 7,00";
-    priceForItem3.textContent = "$ 6,00";
-    priceForItem4.textContent = "$ 4,00";
-    priceForItem5.textContent = "$ 3,20";
-    priceForItem6.textContent = "$ 9,00";
+    priceForItem1.textContent = '$ 3,50';
+    priceForItem2.textContent = '$ 7,00';
+    priceForItem3.textContent = '$ 6,00';
+    priceForItem4.textContent = '$ 4,00';
+    priceForItem5.textContent = '$ 3,20';
+    priceForItem6.textContent = '$ 9,00';
 
-    buttonForItem1.textContent = "Place Order";
-    buttonForItem2.textContent = "Place Order";
-    buttonForItem3.textContent = "Place Order";
-    buttonForItem4.textContent = "Place Order";
-    buttonForItem5.textContent = "Place Order";
-    buttonForItem6.textContent = "Place Order";
+    buttonForItem1.textContent = 'Place Order';
+    buttonForItem2.textContent = 'Place Order';
+    buttonForItem3.textContent = 'Place Order';
+    buttonForItem4.textContent = 'Place Order';
+    buttonForItem5.textContent = 'Place Order';
+    buttonForItem6.textContent = 'Place Order';
 
     // appending child elements to their corresponding parent elements
     menuItem1Top.appendChild(imageForItem1);
@@ -182,7 +181,7 @@ const Menu = (() => {
     mainBody.appendChild(item4);
     mainBody.appendChild(item5);
     mainBody.appendChild(item6);
-  
+
     mainHeader.appendChild(h1);
     main.appendChild(mainHeader);
     main.appendChild(mainBody);
