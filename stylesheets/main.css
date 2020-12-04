@@ -40,7 +40,7 @@ nav {
 }
 
 .active {
-    background-color: #4caf50;
+  color: #F08;
 }
 
 .hero-section {
@@ -108,7 +108,17 @@ h4 {
   grid-template-columns: 30% 30% 30%;
   grid-gap: 2rem;
   max-width: 900px;
-  margin: 0 auto;
+  margin: 3rem auto;
+  font-family: sans-serif;
+}
+
+.menu-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.menu-item-top {
+    height: 12rem;
 }
 
 .item-1-image {
@@ -141,4 +151,12 @@ h4 {
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
+}
+
+.menu-item-title {
+  font-weight: bold;
+}
+
+.menu-item-price {
+  font-size: .9rem;
 }
