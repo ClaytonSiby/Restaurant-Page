@@ -6,6 +6,7 @@ const Menu = (() => {
     const mainHeader = document.createElement('header');
     const mainBody = document.createElement('section');
     const h1 = document.createElement('h1');
+    const p = document.createElement('p');
 
     const item1 = document.createElement('div');
     const menuItem1Top = document.createElement('div');
@@ -60,6 +61,7 @@ const Menu = (() => {
     mainHeader.classList = 'menu-header';
     mainBody.classList = 'menu-section';
     h1.classList = 'header-menu-title';
+    p.classList = 'header-menu-text';
 
     item1.classList = 'menu-item';
     menuItem1Top.classList = 'menu-item-top';
@@ -117,6 +119,7 @@ const Menu = (() => {
     titleForItem5.textContent = 'Random Mixed Tapas';
     titleForItem6.textContent = 'Tankard of smoked scratchings';
     h1.textContent = 'Our Restaurant Menu';
+    p.textContent = 'Share a meal with the ones you love!';
 
     priceForItem1.textContent = '$ 3,50';
     priceForItem2.textContent = '$ 7,00';
@@ -183,6 +186,7 @@ const Menu = (() => {
     mainBody.appendChild(item6);
 
     mainHeader.appendChild(h1);
+    mainHeader.appendChild(p);
     main.appendChild(mainHeader);
     main.appendChild(mainBody);
     content.appendChild(main);

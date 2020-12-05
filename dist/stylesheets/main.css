@@ -101,6 +101,13 @@ h4 {
   background-position: center center;
   background-repeat: no-repeat;
   color: rgb(224, 221, 221);
+  /* transform: scale(1) rotate(calc(-11deg)); */
+}
+
+.header-menu-text {
+  color: #F08;
+  font-size: 1.5rem;
+  font-style: italic;
 }
 
 .menu-section {
@@ -118,8 +125,15 @@ h4 {
 }
 
 .menu-item-top {
-    height: 12rem;
+  height: 12rem;
+  transition: transform .2s ease-out;
 }
+
+.menu-item-top:hover {
+  transform: scale(1.05) rotate(calc(0deg));
+  cursor: pointer;
+}
+
 
 .item-1-image {
   background: url("../images/omelette.jpeg");
