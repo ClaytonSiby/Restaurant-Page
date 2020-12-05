@@ -47,7 +47,7 @@ const Contact = (() => {
     labelForText.textContent = 'Content: ';
     formBtn.textContent = 'Submit';
     headerTitle.textContent = 'Contact Us Via Email';
-    
+
     // append child elements to respective parent elements
     nameFormGroup.appendChild(labelForName);
     nameFormGroup.appendChild(name);
