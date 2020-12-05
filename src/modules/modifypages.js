@@ -17,20 +17,32 @@ const ModifyPages = (() => {
   };
 
   const homeActive = () => {
-    const home = document.querySelector('.home');
+    const menu = document.querySelector('#menu');
+    const home = document.querySelector('#home');
+    const contact = document.querySelector('#contact');
 
+    removeActiveClass(menu);
+    removeActiveClass(contact);
     addActiveClass(home);
   };
 
   const menuActive = () => {
-    const menu = document.querySelector('.menu');
+    const menu = document.querySelector('#menu');
+    const home = document.querySelector('#home');
+    const contact = document.querySelector('#contact');
 
+    removeActiveClass(home);
+    removeActiveClass(contact);
     addActiveClass(menu);
   };
 
   const contactActive = () => {
-    const contact = document.querySelector('.contact');
+    const contact = document.querySelector('#contact');
+    const menu = document.querySelector('#menu');
+    const home = document.querySelector('#home');
 
+    removeActiveClass(home);
+    removeActiveClass(menu);
     addActiveClass(contact);
   };
 

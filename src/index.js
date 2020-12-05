@@ -22,15 +22,24 @@ const displayContact = () => {
   ModifyPages.contactActive();
 }
 
-document.addEventListener('DOMContentLoaded', () => {
-  NavBar.navigation();
-  Home.displayHomepage();
 
-  // select all nav-list items
-  const home = document.querySelector('.home');
-  const menu = document.querySelector('.menu');
-  const contact = document.querySelect('.contact');
-  home.addEventListener('click', displayHome);
-  menu.addEventListener('click', displayMenu);
-  contact.addEventListener('click', displayContact);
+NavBar.navigation();
+Home.displayHomepage();
+
+// select all nav-list items
+const home = document.querySelector('#home');
+const menu = document.querySelector('#menu');
+const contact = document.querySelector('#contact');
+
+home.addEventListener('click', () => {
+  displayHome();
 });
+
+menu.addEventListener('click', () => {
+  displayMenu();
+});
+
+contact.addEventListener('click', () => {
+  displayContact();
+});
+

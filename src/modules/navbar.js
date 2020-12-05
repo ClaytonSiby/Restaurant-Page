@@ -16,9 +16,12 @@ const NavBar = (() => {
     homeListItem.classList = 'nav-item';
     menuListItem.classList = 'nav-item';
     contactListItem.classList = 'nav-item';
-    ankorHome.classList = 'nav-link home';
-    ankorMenu.classList = 'nav-link menu';
-    ankorContact.classList = 'nav-link contact';
+    ankorHome.classList = 'nav-link';
+    ankorHome.setAttribute('id','home');
+    ankorMenu.classList = 'nav-link';
+    ankorMenu.setAttribute('id','menu');
+    ankorContact.classList = 'nav-link';
+    ankorContact.setAttribute('id','contact');
 
     // set textContent on UI elements
     ankorHome.textContent = 'Home';
