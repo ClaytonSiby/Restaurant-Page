@@ -3,5 +3,7 @@ import Home from './modules/home';
 import Contact from './modules/contact';
 import Menu from './modules/menu';
 
-NavBar.navigation();
-Menu.menuListing();
+document.addEventListener('DOMContentLoaded', (event) => {
+    NavBar.navigation();
+    Home.displayHomepage();
+});
