@@ -22,15 +22,17 @@
 - stylelint
 - style-loader
 - css-loader
-
-
 ## Prerequisites
 node
-
 ## Getting Started
 To install dependencies Run:
 ```
 npm install
+```
+
+To start webpack, run:
+```
+npx webpack
 ```
 
 The webpack.config.js is set up to run consistently as you make changes on the source code, if you do not like this behavior go ahead and remove the `watch: true` on line 9 in the webpack.config.js file.
