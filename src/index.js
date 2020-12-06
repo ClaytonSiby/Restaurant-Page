@@ -8,19 +8,19 @@ const displayHome = () => {
   ModifyPages.clearPage();
   Home.displayHomepage();
   ModifyPages.homeActive();
-}
+};
 
 const displayMenu = () => {
   ModifyPages.clearPage();
   Menu.menuListing();
   ModifyPages.menuActive();
-}
+};
 
 const displayContact = () => {
   ModifyPages.clearPage();
   Contact.contactPage();
   ModifyPages.contactActive();
-}
+};
 
 
 NavBar.navigation();
@@ -42,4 +42,3 @@ menu.addEventListener('click', () => {
 contact.addEventListener('click', () => {
   displayContact();
 });
-

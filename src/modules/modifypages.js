@@ -9,11 +9,8 @@ const ModifyPages = (() => {
 
   const clearPage = () => {
     const content = document.getElementById('content');
-    const listItems = document.querySelectorAll('li');
 
     content.removeChild(content.lastChild);
-
-    listItems.forEach(item => removeActiveClass(item));
   };
 
   const homeActive = () => {
