@@ -5,7 +5,7 @@
 ![Screenshot](dist/images/page-screenshot.png)
 
 ## Live Demo
-[Live Demo Link](https://arcane-thicket-18116.herokuapp.com/) 
+[Live Demo Link](https://claytonsiby.github.io/Restaurant-Page/) 
 
 ## 🔧 Built with<a name = "with"></a>
 
