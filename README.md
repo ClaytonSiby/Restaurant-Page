@@ -24,6 +24,13 @@
 - css-loader
 ## Prerequisites
 node
+
+## 🔨 Setup <a name = "setup"></a>
+
+- To clone the repo to your local repository. Follow this steps
+- <code> git clone https://github.com/ClaytonSiby/Restaurant-Page.git</code>
+- <code> cd Restaurant-Page</code>
+
 ## Getting Started
 To install dependencies Run:
 ```
@@ -36,14 +43,6 @@ npx webpack
 ```
 
 The webpack.config.js is set up to run consistently as you make changes on the source code, if you do not like this behavior go ahead and remove the `watch: true` on line 9 in the webpack.config.js file.
-
-
-## 🔨 Setup <a name = "setup"></a>
-
-- To clone the repo to your local repository. Follow this steps
-- <code> git clone https://github.com/ClaytonSiby/Restaurant-Page.git</code>
-- <code> cd Restaurant-Page</code>
-
 
 ## Author
 
