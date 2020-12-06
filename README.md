@@ -9,11 +9,11 @@
 
 ## 🔧 Built with<a name = "with"></a>
 
-HTML, CSS
-JavaScript
-Webpack
-eslint
-stylelint
+* HTML, CSS
+* JavaScript
+* Webpack
+* eslint
+* stylelint
 
 ## Configurations
 - webpack
@@ -62,4 +62,4 @@ Feel free to check the fork this repo and create pull request if you want to mak
 Give a ⭐️ if you like this project!
 
 ## :thumbsup: Acknowledgements
-Let's Build: A Twitter Clone With Ruby on Rails - Parts 1,2 and 3 by WebCrunch
+Project: Restaurant Page - theodinproject.com
