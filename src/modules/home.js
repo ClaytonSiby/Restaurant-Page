@@ -16,6 +16,7 @@ const Home = (() => {
     heroHeader.classList = 'hero-header';
     heroSectionDescription.classList = 'hero-description';
     seeMenuBtn.classList = 'btn btn-success';
+    seeMenuBtn.setAttribute('id','view-menu');
 
     // assign textContent to elements
     headerTitle.textContent = 'SibyRestaurant';
