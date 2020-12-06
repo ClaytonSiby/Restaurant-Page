@@ -56,10 +56,6 @@ const Menu = (() => {
     const priceForItem6 = document.createElement('p');
     const buttonForItem6 = document.createElement('button');
 
-    const appendChildToParent = (parent, child, element) => {
-
-    }
-
     // assigning class attributes to UI elements
     main.classList = 'menu-wrapper';
     mainHeader.classList = 'menu-header';
